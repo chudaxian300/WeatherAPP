@@ -1,1 +1,1 @@
-export npm start &
+npm start &
