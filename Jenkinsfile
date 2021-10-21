@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'sh ./scripts/start-app.sh &' 
+                sh 'npm start &' 
             }
         }
     } 
