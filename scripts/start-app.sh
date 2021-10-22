@@ -1,5 +1,4 @@
 #!/bin/bash
 
-
-export npm start 
+npm start 
 
