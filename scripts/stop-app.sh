@@ -1,3 +1,5 @@
+#!/bin/bash
+
 set -x
 PID=$(lsof -t -i:3001)
 if [ -z "${PID}" ]; then
