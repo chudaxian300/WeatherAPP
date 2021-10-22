@@ -8,4 +8,4 @@ if [ -z "${PID}" ]; then
 fi
 set +x
 
-chmod u+x ./start-app.sh
+chmod u+x start-app.sh
