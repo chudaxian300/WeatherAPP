@@ -7,3 +7,5 @@ if [ -z "${PID}" ]; then
     kill -9 ${PID}
 fi
 set +x
+
+chmod u+x ./start-app.sh
