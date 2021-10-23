@@ -1,3 +1,3 @@
 #!/bin/bash
 
-export JENKINS_NODE_COOKIE=dontKillMe && npm start &
+export JENKINS_NODE_COOKIE=dontKillMe && nohup npm start
